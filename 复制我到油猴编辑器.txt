@@ -11,7 +11,7 @@
 var curUrl = window.location.href;
 var pool = "//weibo.com/a/hot/7591120104660993_1.html?type=new";
 var a = 0, b = 0, v = 0, i = 0;
-var n = 20;
+var n = 18;
 var start = 22;
 var url = "";
 var urlList = new Array();
@@ -111,7 +111,7 @@ function mainBody() {
 				console.log("已读" + (i + 1) + ":" + urlList[i]);
 				i = i + 1;
 			}
-		}, 21000);
+		}, 20000);
 	}, 22000);
 }
 //设置正文窗口15s后关闭
